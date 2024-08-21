@@ -19,7 +19,8 @@ public class CustomUser implements UserDetails{
 		
 		//constructor of this class.
 		//user come here...from of CustomUserDetailsService by this method  loadUserByUsername()
-		public CustomUser(User user) {
+		public CustomUser(User user) 
+		{
 			super();
 			this.user = user;
 		}
